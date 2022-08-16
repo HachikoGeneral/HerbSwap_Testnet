@@ -1,0 +1,38 @@
+{
+  "name": "HerbSwap Default List",
+  "timestamp": "2022-01-26T11:45:09Z",
+  "version": {
+    "major": 4,
+    "minor": 0,
+    "patch": 0
+  },
+  "tags": {},
+  "logoURI": "https://pancakeswap.finance/logo.png",
+  "keywords": ["pancake", "default"],
+  "tokens": [
+    {
+      "name": "WTARA Token",
+      "symbol": "WTARA",
+      "address": "0x9A3b58833815A09d5d943e7dD4A77E6557Dea93f",
+      "chainId": 4002,
+      "decimals": 18,
+      "logoURI": "https://assets.coingecko.com/coins/images/4372/small/CPuCDZX.jpg"
+    },
+    {
+      "name": "USDC Token",
+      "symbol": "USDC",
+      "address": "0xFc6A8423a6B7532Ffc676AA9DaD7c761D690EdB5",
+      "chainId": 4002,
+      "decimals": 18,
+      "logoURI": "https://assets.coingecko.com/coins/images/6319/small/USD_Coin_icon.png?1547042389"
+    },
+    {
+      "name": "HerbSwap Token",
+      "symbol": "HERB",
+      "address": "0x25B4bA0555282645FE6B1CE22b3323F3879a61b7",
+      "chainId": 4002,
+      "decimals": 18,
+      "logoURI": "https://iili.io/gFyZjs.png"
+    }
+  ]
+}
