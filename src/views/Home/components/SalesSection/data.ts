@@ -52,7 +52,7 @@ export const earnSectionData = (t: TranslateFunction): SalesSectionProps => ({
 export const cakeSectionData = (t: TranslateFunction): SalesSectionProps => ({
   headingText: t('HERB makes our world go round.'),
   bodyText: t(
-    'HERB token is at the heart of the PancakeSwap ecosystem. Buy it, win it, farm it, spend it, stake it... heck, you can even vote with it!',
+    'HERB token is at the heart of the HerbSwap ecosystem. Buy it, win it, farm it, spend it, stake it!',
   ),
   reverse: false,
   primaryButton: {

@@ -72,21 +72,21 @@ const config: (
       hideSubNav: true,
       supportChainIds: [ChainId.BSC],
       items: [
-        {
+  /**      {
           label: t('Info'),
           href: '/info',
         },
         {
           type: DropdownMenuItemType.DIVIDER,
-        },
+        }, */
         {
           label: t('Blog'),
-          href: 'https://medium.com/pancakeswap',
+          href: 'https://medium.com/@HerbSwap',
           type: DropdownMenuItemType.EXTERNAL_LINK,
         },
         {
-          label: t('Docs'),
-          href: 'https://docs.pancakeswap.finance',
+          label: t('All about Taraxa'),
+          href: 'https://www.taraxa.io/infrastructure/#section_use_case',
           type: DropdownMenuItemType.EXTERNAL_LINK,
         },
       ],

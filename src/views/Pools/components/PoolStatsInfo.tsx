@@ -112,22 +112,11 @@ const PoolStatsInfo: React.FC<ExpandedFooterProps> = ({
         </Flex>
       )}
       {vaultKey && <PerformanceFee userData={userData} performanceFeeAsDecimal={performanceFeeAsDecimal} />}
-      <Flex mb="2px" justifyContent={alignLinksToRight ? 'flex-end' : 'flex-start'}>
-        <LinkExternal href={`/info/token/${earningToken.address}`} bold={false} small>
-          {t('See Token Info')}
-        </LinkExternal>
-      </Flex>
+
       {!vaultKey && (
         <Flex mb="2px" justifyContent={alignLinksToRight ? 'flex-end' : 'flex-start'}>
           <LinkExternal href={earningToken.projectLink} bold={false} small>
             {t('View Project Site')}
-          </LinkExternal>
-        </Flex>
-      )}
-      {vaultKey && (
-        <Flex mb="2px" justifyContent={alignLinksToRight ? 'flex-end' : 'flex-start'}>
-          <LinkExternal href="https://docs.pancakeswap.finance/products/syrup-pool/new-cake-pool" bold={false} small>
-            {t('View Tutorial')}
           </LinkExternal>
         </Flex>
       )}
@@ -153,7 +142,7 @@ const PoolStatsInfo: React.FC<ExpandedFooterProps> = ({
                 tokenAddress,
                 earningToken.symbol,
                 earningToken.decimals,
-                `https://tokens.pancakeswap.finance/images/${tokenAddress}.png`,
+                `https://testnet.herbswap.finance/images/${tokenAddress}.png`,
               )
             }
           >
