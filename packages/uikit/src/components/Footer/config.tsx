@@ -95,7 +95,7 @@ export const socials = [
   {
     label: "Github",
     icon: GithubIcon,
-    href: "coming soon",
+    href: "https://github.com/localhost-3000",
   },
 /**  {
     label: "Discord",
@@ -105,7 +105,7 @@ export const socials = [
   {
     label: "Medium",
     icon: MediumIcon,
-    href: "coming soon",
+    href: "https://medium.com/@HerbSwap",
   },
 ];
 
