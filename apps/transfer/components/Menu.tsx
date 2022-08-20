@@ -77,9 +77,6 @@ export function Menu() {
         </Flex>
       </Flex>
       <Flex alignItems="center">
-        <Box mr="16px">
-          <ThemeSwitcher isDark={theme.isDark} toggleTheme={() => setTheme(theme.isDark ? 'light' : 'dark')} />
-        </Box>
         <User />
       </Flex>
     </Flex>
