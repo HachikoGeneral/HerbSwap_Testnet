@@ -67,7 +67,7 @@ const config: (
     },
     {
       label: '',
-      href: '/info',
+      href: 'https://medium.com/@HerbSwap',
       icon: MoreIcon,
       hideSubNav: true,
       supportChainIds: [ChainId.BSC],
