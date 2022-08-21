@@ -37,13 +37,14 @@ const MenuItem: React.FC<FooterProps> = ({
           <LogoWithTextIcon isDark width="130px" />
         </StyledIconMobileContainer>
   
-        <StyledSocialLinks order={[2]} pb={["42px", null, "32px"]} mb={["0", null, "32px"]} />
+       
         <StyledToolsContainer
           order={[1, null, 3]}
           flexDirection={["column", null, "row"]}
           justifyContent="space-between"
         >
           <Flex order={[2, null, 1]} alignItems="center">
+           <StyledSocialLinks />
             <LangSelector
               currentLang={currentLang}
               langs={langs}
