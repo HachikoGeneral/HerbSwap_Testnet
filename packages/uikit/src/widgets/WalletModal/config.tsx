@@ -20,7 +20,7 @@ const connectors: Config[] = [
     priority: 1,
     href: "https://metamask.app.link/dapp/testnet.herbswap.finance/",
   },
-  {
+ /** {
     title: "Binance Wallet",
     icon: BinanceChain,
     connectorId: ConnectorNames.BSC,
@@ -37,7 +37,7 @@ const connectors: Config[] = [
     icon: WalletConnect,
     connectorId: ConnectorNames.WalletConnect,
     priority: 5,
-  },
+  }, */
 
 ];
 

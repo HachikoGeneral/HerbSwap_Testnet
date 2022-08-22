@@ -79,7 +79,7 @@ const ConnectModal: React.FC<Props> = ({ login, onDismiss = () => null, displayC
                 <WalletCard walletConfig={wallet} login={login} onDismiss={onDismiss} />
               </Box>
             ))}
-            {!showMore && <MoreWalletCard t={t} onClick={() => setShowMore(true)} />}
+         
           </Grid>
         </WalletWrapper>
         <Box p="24px">
@@ -88,7 +88,7 @@ const ConnectModal: React.FC<Props> = ({ login, onDismiss = () => null, displayC
           </Text>
           <Button
             as="a"
-            href="https://taraxa.io"
+            href="https://cryptobriefing.com/metamask-beginner-guide/"
             variant="subtle"
             width="100%"
             {...EXTERNAL_LINK_PROPS}
