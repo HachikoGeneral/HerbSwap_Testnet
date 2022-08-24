@@ -85,6 +85,11 @@ const config: (
           type: DropdownMenuItemType.EXTERNAL_LINK,
         },
         {
+          label: t('Inquiries'),
+          href: 'mailto:info@herbswap.finance',
+          type: DropdownMenuItemType.EXTERNAL_LINK,
+        },
+        {
           label: t('All about Taraxa'),
           href: 'https://www.taraxa.io/infrastructure/#section_use_case',
           type: DropdownMenuItemType.EXTERNAL_LINK,

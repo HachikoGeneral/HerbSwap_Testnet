@@ -85,10 +85,11 @@ export const socials = [
   {
     label: "Telegram",
     icon: TelegramIcon,
+    href: "https://t.me/HerbSwap",
     items: [
       {
         label: "English",
-        href: "coming soon",
+        href: "https://t.me/HerbSwap",
       },
     ],
   },
