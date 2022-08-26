@@ -74,7 +74,7 @@ function MyApp({ Component, pageProps }: AppProps) {
           content="The first DEX and AMM on TARAXA! Earn HERB through yield farming and stake it in the Juice Pools to earn more tokens!"
         />
         <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:title" content="🌿 HerbSwap - A next evolution DeFi exchange on TARAXA mainnet" />
+        <meta name="twitter:title" content="🌿 HerbSwap - The future of DeFi and NFTs on web3 powered by Taraxa" />
         <title>HerbSwap</title>
       </Head>
       <WagmiConfig client={client}>
