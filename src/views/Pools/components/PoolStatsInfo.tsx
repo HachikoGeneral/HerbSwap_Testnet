@@ -142,7 +142,7 @@ const PoolStatsInfo: React.FC<ExpandedFooterProps> = ({
                 tokenAddress,
                 earningToken.symbol,
                 earningToken.decimals,
-                `https://testnet.herbswap.finance/images/${tokenAddress}.png`,
+                `https://testnet.herbswap.app/images/${tokenAddress}.png`,
               )
             }
           >

@@ -70,7 +70,7 @@ function MyApp(props: AppProps) {
           content="Next-gen L1? Discover HerbSwap, the first DEX and AMM on Taraxa (TARA) with the best farms in DeFi"
         />
         <meta name="theme-color" content="#1FC7D4" />
-        <meta name="twitter:image" content="https://testnet.herbswap.finance/images/hero.png" />
+        <meta name="twitter:image" content="https://testnet.herbswap.app/images/hero.png" />
         <meta
           name="twitter:description"
           content="The first DEX and AMM on TARAXA! Earn HERB through yield farming and stake it in the Juice Pools to earn more tokens!"

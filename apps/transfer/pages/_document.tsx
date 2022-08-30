@@ -35,8 +35,8 @@ class MyDocument extends Document {
         <Head>
           <link rel="preconnect" href="https://fonts.gstatic.com" />
           <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@400;600&amp;display=swap" rel="stylesheet" />
-          <link rel="shortcut icon" href="https://testnet.herbswap.finance/favicon.ico" />
-          <link rel="apple-touch-icon" href="https://testnet.herbswap.finance/logo.png" />
+          <link rel="shortcut icon" href="https://testnet.herbswap.app/favicon.ico" />
+          <link rel="apple-touch-icon" href="https://testnet.herbswap.app/logo.png" />
         </Head>
         <body>
           <noscript>

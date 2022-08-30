@@ -58,7 +58,7 @@ const DetailsSection: React.FC<ExpandableSectionProps> = ({
         <StyledLinkExternal href={addLiquidityUrl}>{t('Get %symbol%', { symbol: lpLabel })}</StyledLinkExternal>
       )}
       <StyledLinkExternal href={bscScanAddress}>{t('View Contract')}</StyledLinkExternal>
-      <StyledLinkExternal href="https://testnet.herbswap.finance/swap">{t('See Pair Info (coming soon)')}</StyledLinkExternal>
+      <StyledLinkExternal href="https://testnet.herbswap.app/swap">{t('See Pair Info (coming soon)')}</StyledLinkExternal>
     </Wrapper>
     /** change herbswap link to {infoAddress} when info site is ready */
   )

@@ -86,7 +86,7 @@ const config: (
         },
         {
           label: t('Inquiries'),
-          href: 'mailto:info@herbswap.finance',
+          href: 'mailto:info@herbswap.app',
           type: DropdownMenuItemType.EXTERNAL_LINK,
         },
         {

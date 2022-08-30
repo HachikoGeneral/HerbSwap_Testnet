@@ -24,7 +24,7 @@ export const coinbaseConnector = new CoinbaseWalletConnector({
   chains,
   options: {
     appName: 'HerbSwap',
-    appLogoUrl: 'https://testnet.herbswap.finance/logo.png',
+    appLogoUrl: 'https://testnet.herbswap.app/logo.png',
   },
 })
 
