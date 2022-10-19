@@ -96,7 +96,7 @@ export const socials = [
   {
     label: "Github",
     icon: GithubIcon,
-    href: "https://github.com/localhost-3000/HerbSwap_Testnet",
+    href: "https://github.com/HerbSwap",
   },
 /**  {
     label: "Discord",
