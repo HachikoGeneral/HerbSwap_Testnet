@@ -5,16 +5,16 @@ const tokens = {
   cake: {
     symbol: "HERB",
     address: {
-      4002: "0x25B4bA0555282645FE6B1CE22b3323F3879a61b7",
+      841: "0x063F255689b00A877F6be55109b3ECA24e266809",
       97: "0xa35062141Fa33BCA92Ce69FeD37D0E8908868AAe",
     },
     decimals: 18,
-    projectLink: "https://herbswap.finance/",
+    projectLink: "https://herbswap.app/",
   },
   busd: {
     symbol: "USDC",
     address: {
-      4002: "0xFc6A8423a6B7532Ffc676AA9DaD7c761D690EdB5",
+      841: "0xdC214660C0bBBfe95A70C8c85253b5D62a8dd625",
       97: "",
     },
     decimals: 18,
@@ -23,20 +23,20 @@ const tokens = {
   wbnb: {
     symbol: "wTARA",
     address: {
-      4002: "0x9A3b58833815A09d5d943e7dD4A77E6557Dea93f",
+      841: "0xAb6c89f4a217E691BEe4ab1A433221e5C2D249c0",
       97: "0xae13d989daC2f0dEbFf460aC112a837C89BAa7cd",
     },
     decimals: 18,
-    projectLink: "https://herbswap.finance/",
+    projectLink: "https://herbswap.app/",
   },
   syrup: {
     symbol: "JUICE",
     address: {
-      4002: "0xAAaCdE241C7735783a83d092d19d858d666D37a0",
+      841: "0x393c35d38f881377aAad95f01A0Ad06fd1abae89",
       97: "0xfE1e507CeB712BDe086f3579d2c03248b2dB77f9",
     },
     decimals: 18,
-    projectLink: "https://herbswap.finance/",
+    projectLink: "https://herbswap.app/",
   },
 
 

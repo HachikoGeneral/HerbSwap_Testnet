@@ -4,7 +4,7 @@ import { SerializedFarmConfig } from './types'
 
 const serializedTokens = serializeTokens(bscTokens)
 
-export const CAKE_BNB_LP_MAINNET = '0xeDC6b4E60C33db1CB2A9A6a26d4bd0D9f2958b8d'
+export const CAKE_BNB_LP_MAINNET = '0x2D7a8Cc45591dCDC3cb86f003785b29a6F5BEf03'
 
 const farms: SerializedFarmConfig[] = [
   /**
@@ -16,7 +16,7 @@ const farms: SerializedFarmConfig[] = [
     lpSymbol: 'HERB',
     lpAddresses: {
       97: '0x0E09FaBB73Bd3Ade0a17ECC321fD13a19e81cE82',
-      4002: '0x25B4bA0555282645FE6B1CE22b3323F3879a61b7',
+      841: '0x063F255689b00A877F6be55109b3ECA24e266809',
     },
     token: serializedTokens.syrup,
     quoteToken: serializedTokens.wbnb,
@@ -27,7 +27,7 @@ const farms: SerializedFarmConfig[] = [
     lpSymbol: 'HERB-TARA LP',
     lpAddresses: {
       97: '0x3ed8936cAFDF85cfDBa29Fbe5940A5b0524824F4',
-      4002: CAKE_BNB_LP_MAINNET,
+      841: CAKE_BNB_LP_MAINNET,
     },
     token: serializedTokens.cake,
     quoteToken: serializedTokens.wbnb,
@@ -38,11 +38,14 @@ const farms: SerializedFarmConfig[] = [
     lpSymbol: 'USDC-TARA LP',
     lpAddresses: {
       97: '0xa35062141Fa33BCA92Ce69FeD37D0E8908868AAe',
-      4002: '0xe25CB73b37069a2Fb001e75328ED092552045607',
+      841: '0x13227e215400E884CAbBE6AD525AE112806E4b4d',
     },
     token: serializedTokens.busd,
     quoteToken: serializedTokens.wbnb,
   },
+
+
+
   //    * V3 by order of release (some may be out of PID order due to multiplier boost)
  /** {
     pid: 73,

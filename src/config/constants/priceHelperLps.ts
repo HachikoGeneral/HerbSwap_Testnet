@@ -14,7 +14,7 @@ const priceHelperLps: SerializedFarmConfig[] = [
     lpSymbol: 'HERB-TARA LP',
     lpAddresses: {
       97: '',
-      4002: '0xeDC6b4E60C33db1CB2A9A6a26d4bd0D9f2958b8d',
+      841: '0x2D7a8Cc45591dCDC3cb86f003785b29a6F5BEf03',
     },
     token: bscTokens.cake,
     quoteToken: bscTokens.wbnb,
@@ -24,7 +24,7 @@ const priceHelperLps: SerializedFarmConfig[] = [
     lpSymbol: 'TARA-BUSD LP',
     lpAddresses: {
       97: '',
-      4002: '0xe25CB73b37069a2Fb001e75328ED092552045607',
+      841: '0x13227e215400E884CAbBE6AD525AE112806E4b4d',
     },
     token: bscTokens.wbnb,
     quoteToken: bscTokens.busd,

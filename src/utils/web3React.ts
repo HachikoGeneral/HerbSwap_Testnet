@@ -17,7 +17,7 @@ export const injected = new InjectedConnector({ supportedChainIds: SUPPORTED_CHA
 
 const walletconnect = new WalletConnectConnector({
   rpc: {
-    [ChainId.BSC]: 'https://rpc.ankr.com/fantom_testnet',
+    [ChainId.BSC]: 'https://rpc.mainnet.taraxa.io',
     [ChainId.BSC_TESTNET]: 'https://data-seed-prebsc-2-s3.binance.org:8545',
   },
   qrcode: true,

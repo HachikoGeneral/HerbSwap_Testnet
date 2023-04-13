@@ -1,5 +1,5 @@
 export const BSC_RPC_URLS = [
-  'https://rpc.ankr.com/fantom_testnet',
+  'https://rpc.mainnet.taraxa.io',
 ]
 
 export const BSC_TESTNET_RPC_URLS = [

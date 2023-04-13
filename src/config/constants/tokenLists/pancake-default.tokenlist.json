@@ -13,24 +13,24 @@
     {
       "name": "WTARA Token",
       "symbol": "WTARA",
-      "address": "0x9A3b58833815A09d5d943e7dD4A77E6557Dea93f",
-      "chainId": 4002,
+      "address": "0xAb6c89f4a217E691BEe4ab1A433221e5C2D249c0",
+      "chainId": 841,
       "decimals": 18,
       "logoURI": "https://assets.coingecko.com/coins/images/4372/small/CPuCDZX.jpg"
     },
     {
       "name": "USDC Token",
       "symbol": "USDC",
-      "address": "0xFc6A8423a6B7532Ffc676AA9DaD7c761D690EdB5",
-      "chainId": 4002,
+      "address": "0xdC214660C0bBBfe95A70C8c85253b5D62a8dd625",
+      "chainId": 841,
       "decimals": 18,
       "logoURI": "https://assets.coingecko.com/coins/images/6319/small/USD_Coin_icon.png?1547042389"
     },
     {
       "name": "HerbSwap Token",
       "symbol": "HERB",
-      "address": "0x25B4bA0555282645FE6B1CE22b3323F3879a61b7",
-      "chainId": 4002,
+      "address": "0x063F255689b00A877F6be55109b3ECA24e266809",
+      "chainId": 841,
       "decimals": 18,
       "logoURI": "https://iili.io/gFyZjs.png"
     }

@@ -4,7 +4,7 @@ import { bscTokens, bscTestnetTokens } from './tokens'
 import { ChainTokenList } from './types'
 
 export const ROUTER_ADDRESS = {
-  [ChainId.BSC]: '0x08d77Af36eeBc128B0b2D65723c92AE9a1358833',
+  [ChainId.BSC]: '0xB748fD7733ead9E225d31Df4e4BD132a4a08a826',
   [ChainId.BSC_TESTNET]: '0xD99D1c33F9fC3444f8101754aBC46c52416550D1',
 }
 
@@ -87,7 +87,7 @@ export const INPUT_FRACTION_AFTER_FEE = ONE_HUNDRED_PERCENT.subtract(BASE_FEE)
 // BNB
 export const DEFAULT_INPUT_CURRENCY = 'TARA'
 // CAKE
-export const DEFAULT_OUTPUT_CURRENCY = '0x25B4bA0555282645FE6B1CE22b3323F3879a61b7'
+export const DEFAULT_OUTPUT_CURRENCY = '0x063F255689b00A877F6be55109b3ECA24e266809'
 
 // Handler string is passed to Gelato to use PCS router
 export const GELATO_HANDLER = 'pancakeswap'

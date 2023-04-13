@@ -72,8 +72,8 @@ export const SubMenu: React.FC = () => {
           component={<EllipsisIcon height="16px" width="16px" />}
           options={{ placement: "right", offset: [0, 15], padding: { top: 20 } }}
         >
-          <SubMenuItem as={LinkExternal} href="https://testnet.ftmscan.com" bold={false} color="text">
-            View on FTMScan
+          <SubMenuItem as={LinkExternal} href="https://mainnet.explorer.taraxa.io/" bold={false} color="text">
+            View on TARA-Explorer
           </SubMenuItem>
           <SubMenuItem as={LinkExternal} href="https://herbswap.finance/info" bold={false} color="text" target="blank">
             View on HerbSwap Info
@@ -90,8 +90,8 @@ export const SubMenu: React.FC = () => {
             </Text>
           }
         >
-          <SubMenuItem as={LinkExternal} href="https://testnet.ftmscan.com" bold={false} color="text">
-            View on FTMScan
+          <SubMenuItem as={LinkExternal} href="https://mainnet.explorer.taraxa.io/" bold={false} color="text">
+            View on TARA-Explorer
           </SubMenuItem>
           <SubMenuItem as={LinkExternal} href="https://herbswap.finance/info" bold={false} color="text" target="blank">
             View on HerbSwap Info

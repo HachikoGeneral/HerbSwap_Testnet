@@ -10,23 +10,23 @@ import {
 } from 'wagmi/chains'
 import { Chain } from 'wagmi'
 
-const bscExplorer = { name: 'FTMScan', url: 'https://testnet.ftmscan.com' }
+const bscExplorer = { name: 'TARA-Explorer', url: 'https://mainnet.explorer.taraxa.io/' }
 
 export const bsc: Chain = {
-  id: 4002,
-  name: 'FTM TARA TestChain',
+  id: 841,
+  name: 'Taraxa Mainnet',
   network: 'bsc',
   rpcUrls: {
-    default: 'https://rpc.ankr.com/fantom_testnet',
-    public: 'https://rpc.ankr.com/fantom_testnet',
+    default: 'https://rpc.mainnet.taraxa.io/',
+    public: 'https://rpc.mainnet.taraxa.io/',
   },
   blockExplorers: {
     default: bscExplorer,
     etherscan: bscExplorer,
   },
   multicall: {
-    address: '0x1Bfd7bC84Ee3B436890f4491703a6B6107297b6B',
-    blockCreated: 10071740,
+    address: '0xe08E96Bb88CCf1F63C102757e598c000592B4927',
+    blockCreated: 231226,
   },
   nativeCurrency: {
     name: 'TARA',
@@ -84,18 +84,18 @@ export const fantomOpera: Chain = {
   },
 }
 
-export const fantomTestnet: Chain = {
-  id: 4002,
-  name: 'Fantom Testnet',
-  network: 'fantom-testnet',
-  nativeCurrency: { name: 'Fantom', symbol: 'FTM', decimals: 18 },
+export const taraxaMainnet: Chain = {
+  id: 841,
+  name: 'Taraxa Mainnet',
+  network: 'taraxa-mainnet',
+  nativeCurrency: { name: 'Taraxa', symbol: 'TARA', decimals: 18 },
   rpcUrls: {
-    default: 'https://rpc.testnet.fantom.network',
+    default: 'https://rpc.mainnet.taraxa.io/',
   },
   blockExplorers: {
     default: {
-      name: 'FTMScan',
-      url: 'https://testnet.ftmscan.com',
+      name: 'TARA-Explorer',
+      url: 'https://mainnet.explorer.taraxa.io/',
     },
   },
   testnet: true,
@@ -133,7 +133,7 @@ export const CHAINS_TESTNET = [
   optimismKovan,
   polygonMumbai,
   avalandcheFuji,
-  fantomTestnet,
+  taraxaMainnet,
 ]
 
 export const CHAINS_STARGATE_TESTNET = [
@@ -142,7 +142,7 @@ export const CHAINS_STARGATE_TESTNET = [
   optimismKovan,
   polygonMumbai,
   avalandcheFuji,
-  fantomTestnet,
+  taraxaMainnet,
 ]
 
 export const CHAINS = [bsc, mainnet, arbitrum, optimism, polygon, fantomOpera, avalandche]

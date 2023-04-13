@@ -6,7 +6,7 @@ export type BigintIsh = JSBI | number | string
 export enum ChainId {
   // ETHEREUM = 1,
   // RINKEBY = 4,
-  BSC = 4002,
+  BSC = 841,
   BSC_TESTNET = 97,
 }
 
@@ -21,7 +21,7 @@ export enum Rounding {
   ROUND_UP,
 }
 
-export const FACTORY_ADDRESS = '0x2Ac1EB6Af97F693bdd509134316994973d8Ca9ae'
+export const FACTORY_ADDRESS = '0x3b579f58916A93703Ecd8a75972fE6f28d605965'
 
 export const FACTORY_ADDRESS_MAP = {
   [ChainId.BSC]: FACTORY_ADDRESS,

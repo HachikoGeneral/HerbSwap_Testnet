@@ -8,7 +8,7 @@ import { BSC_RPC_URLS, BSC_TESTNET_RPC_URLS } from '../config/constants/rpc'
 
 const NETWORK_CONFIG = {
   [ChainId.BSC]: {
-    name: 'FTM TARA TestChain',
+    name: 'Taraxa Mainnet',
     scanURL: BASE_BSC_SCAN_URLS[ChainId.BSC],
     rpcUrls: BSC_RPC_URLS,
   },

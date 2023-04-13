@@ -2,7 +2,7 @@ import { ChainId, Token, WBNB } from '@pancakeswap/sdk'
 
 const CAKE_MAINNET = new Token(                     // CAKE_MAINNET stands for HERB token in HerbSwap
   ChainId.BSC,
-  '0x25B4bA0555282645FE6B1CE22b3323F3879a61b7',
+  '0x063F255689b00A877F6be55109b3ECA24e266809',
   18,
   'HERB',
   'HerbSwap Token',
@@ -48,7 +48,7 @@ export const CAKE = {
 
 const BUSD_MAINNET = new Token(                        // BUSD_MAINNET stands for USDC token in HerbSwap
   ChainId.BSC,
-  '0xFc6A8423a6B7532Ffc676AA9DaD7c761D690EdB5',
+  '0xdC214660C0bBBfe95A70C8c85253b5D62a8dd625',
   18,
   'USDC',
   'USD Coin',
@@ -74,7 +74,7 @@ export const bscTokens = {
   // bnb here points to the wbnb contract. Wherever the currency BNB is required, conditional checks for the symbol 'BNB' can be used
   bnb: new Token(
     ChainId.BSC,
-    '0x9A3b58833815A09d5d943e7dD4A77E6557Dea93f',
+    '0xAb6c89f4a217E691BEe4ab1A433221e5C2D249c0',
     18,
     'TARA',
     'TARA',
@@ -84,7 +84,7 @@ export const bscTokens = {
   busd: BUSD_MAINNET,
   syrup: new Token(                                    // syrup stands for juice token in HerbSwap
   ChainId.BSC,
-  '0xAAaCdE241C7735783a83d092d19d858d666D37a0',
+  '0x393c35d38f881377aAad95f01A0Ad06fd1abae89',
   18,
   'JUICE',
   'JuiceBar Token',

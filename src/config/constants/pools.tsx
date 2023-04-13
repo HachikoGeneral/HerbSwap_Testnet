@@ -64,10 +64,10 @@ export const livePools: SerializedPoolConfig[] = [
     earningToken: serializedTokens.cake,
     contractAddress: {
       97: '0xB4A466911556e39210a6bB2FaECBB59E4eB7E43d',
-      4002: '0x188D408bc3Ab8d5A6d8d3e5880e4F4F517f3c810',
+      841: '0x735F852234399130e188403B9e586a193da9727B',
     },
     poolCategory: PoolCategory.CORE,
-    tokenPerBlock: '25',
+    tokenPerBlock: '13',
     isFinished: false,
   },
  /** {
