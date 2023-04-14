@@ -6,7 +6,7 @@ export const DEFAULT_META: PageMeta = {
   title: 'HerbSwap',
   description:
     'The most popular AMM on TARAXA by user count! Earn HERB through yield farming or win it in the Lottery, then stake it in Juice Pools to earn more tokens!',
-  image: 'https://testnet.herbswap.app/images/helpcat.png',
+  image: 'https://herbswap.app/images/helpcat.png',
 }
 
 interface PathList {

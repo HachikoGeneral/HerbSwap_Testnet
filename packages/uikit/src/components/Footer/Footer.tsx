@@ -59,7 +59,7 @@ const MenuItem: React.FC<FooterProps> = ({
             </Box>
             <Button
               as="a"
-              href="https://testnet.herbswap.app/swap?outputCurrency=0x25B4bA0555282645FE6B1CE22b3323F3879a61b7"
+              href="https://herbswap.app/swap?outputCurrency=0x063F255689b00A877F6be55109b3ECA24e266809"
               target="_blank"
               scale="sm"
               endIcon={<ArrowForwardIcon color={lightColors.backgroundAlt} />}

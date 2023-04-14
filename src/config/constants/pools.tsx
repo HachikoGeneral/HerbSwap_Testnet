@@ -18,7 +18,7 @@ export const vaultPoolConfig = {
     name: <Trans>Auto HERB</Trans>,
     description: <Trans>Automatic restaking</Trans>,
     autoCompoundFrequency: 5000,
-    gasLimit: 380000,
+    gasLimit: 3800000,
     tokenImage: {
       primarySrc: `https://iili.io/gFyZjs.png`,
       secondarySrc: '/images/tokens/autorenew.svg',
@@ -29,7 +29,7 @@ export const vaultPoolConfig = {
     name: <Trans>Stake HERB</Trans>,
     description: <Trans>Stake, Earn – And more!</Trans>,
     autoCompoundFrequency: 5000,
-    gasLimit: 500000,
+    gasLimit: 5000000,
     tokenImage: {
       primarySrc: `https://iili.io/gFyZjs.png`,
       secondarySrc: '/images/tokens/autorenew.svg',
@@ -39,7 +39,7 @@ export const vaultPoolConfig = {
     name: <Trans>Flexible HERB</Trans>,
     description: <Trans>Flexible staking on the side.</Trans>,
     autoCompoundFrequency: 5000,
-    gasLimit: 500000,
+    gasLimit: 5000000,
     tokenImage: {
       primarySrc: `https://iili.io/gFyZjs.png`,
       secondarySrc: '/images/tokens/autorenew.svg',
@@ -49,7 +49,7 @@ export const vaultPoolConfig = {
     name: 'IFO CAKE',
     description: <Trans>Stake HERB to participate in IFOs</Trans>,
     autoCompoundFrequency: 1,
-    gasLimit: 500000,
+    gasLimit: 5000000,
     tokenImage: {
       primarySrc: `https://iili.io/gFyZjs.png`,
       secondarySrc: `/images/tokens/ifo-pool-icon.svg`,

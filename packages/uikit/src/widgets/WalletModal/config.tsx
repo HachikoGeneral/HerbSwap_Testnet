@@ -18,7 +18,7 @@ const connectors: Config[] = [
     icon: Metamask,
     connectorId: ConnectorNames.Injected,
     priority: 1,
-    href: "https://metamask.app.link/dapp/testnet.herbswap.app/",
+    href: "https://metamask.app.link/dapp/herbswap.app/",
   },
  /** {
     title: "Binance Wallet",

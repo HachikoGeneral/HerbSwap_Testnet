@@ -67,13 +67,13 @@ export function Menu() {
   return (
     <Flex height="56px" bg="backgroundAlt" px="16px" alignItems="center" justifyContent="space-between" zIndex={1}>
       <Flex>
-        <Logo isDark={theme.isDark} href="https://testnet.herbswap.app" />
+        <Logo isDark={theme.isDark} href="https://herbswap.app" />
 
         <Flex pl={['25px', null, '50px']}>
           <NextLink href="/" passHref>
             <StyledMenuItem $isActive>Transfer</StyledMenuItem>
           </NextLink>
-          <StyledMenuItem href="https://testnet.herbswap.app/swap">Swap</StyledMenuItem>
+          <StyledMenuItem href="https://herbswap.app/swap">Swap</StyledMenuItem>
         </Flex>
       </Flex>
       <Flex alignItems="center">

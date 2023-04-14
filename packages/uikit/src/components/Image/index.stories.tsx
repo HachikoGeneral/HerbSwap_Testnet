@@ -80,7 +80,7 @@ export const TokenImages: React.FC = () => {
   return (
     <Flex flexWrap="wrap">
       {tokens.map((token) => {
-        const src = `https://testnet.herbswap.app/images/tokens/${token.address[841]}.png`;
+        const src = `https://herbswap.app/images/tokens/${token.address[841]}.png`;
 
         return (
           <StyledBox key={token.symbol} p="16px">
@@ -101,8 +101,8 @@ export const TokenPairImages: React.FC = () => {
     <Flex flexWrap="wrap">
       {tokens.map((token) => {
         const randomTokenIndex = random(0, tokens.length - 1);
-        const primarySrc = `https://testnet.herbswap.app/images/tokens/${token.address[841]}.png`;
-        const secondarySrc = `https://testnet.herbswap.app/images/tokens/${tokens[randomTokenIndex].address[841]}.png`;
+        const primarySrc = `https://herbswap.app/images/tokens/${token.address[841]}.png`;
+        const secondarySrc = `https://herbswap.app/images/tokens/${tokens[randomTokenIndex].address[841]}.png`;
 
         return (
           <StyledBox key={token.symbol} p="16px">

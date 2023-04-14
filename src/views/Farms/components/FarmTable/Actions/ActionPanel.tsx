@@ -169,7 +169,7 @@ const ActionPanel: React.FunctionComponent<ActionPanelProps> = ({
           </StakeContainer>
         )}
         <StyledLinkExternal href={bsc}>{t('View Contract')}</StyledLinkExternal>
-        <StyledLinkExternal href="https://testnet.herbswap.app/swap">{t('See Pair Info (coming soon)')}</StyledLinkExternal>
+        <StyledLinkExternal href="https://herbswap.app/swap">{t('See Pair Info (coming soon)')}</StyledLinkExternal>
       </InfoContainer>
       <ActionContainer>
         <HarvestAction {...farm} userDataReady={userDataReady} />
