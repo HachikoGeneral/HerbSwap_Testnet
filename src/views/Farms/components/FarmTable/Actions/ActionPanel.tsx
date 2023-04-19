@@ -1,3 +1,4 @@
+import { AddIcon, Button, IconButton, MinusIcon, Skeleton, useModal } from '@pancakeswap/uikit'
 import styled, { keyframes, css } from 'styled-components'
 import { useTranslation } from 'contexts/Localization'
 import { LinkExternal, Text, useMatchBreakpointsContext } from '@pancakeswap/uikit'
@@ -5,12 +6,23 @@ import getLiquidityUrlPathParts from 'utils/getLiquidityUrlPathParts'
 import { getAddress } from 'utils/addressHelpers'
 import { getBscScanLink } from 'utils'
 import { FarmWithStakedValue } from '../../types'
-
+import useCatchTxError from 'hooks/useCatchTxError'
 import HarvestAction from './HarvestAction'
 import StakedAction from './StakedAction'
 import Apr, { AprProps } from '../Apr'
 import Multiplier, { MultiplierProps } from '../Multiplier'
 import Liquidity, { LiquidityProps } from '../Liquidity'
+import { useCallback } from 'react'
+import useApproveFarm from '../../../hooks/useApproveFarm'
+import { useERC20 } from 'hooks/useContract'
+import useToast from 'hooks/useToast'
+import { ToastDescriptionWithTx } from 'components/Toast'
+import { useAppDispatch } from 'state'
+import { fetchFarmUserDataAsync } from 'state/farms'
+import { useWeb3React } from '@web3-react/core'
+import { pid } from 'process'
+
+
 
 export interface ActionPanelProps {
   apr: AprProps
@@ -20,7 +32,6 @@ export interface ActionPanelProps {
   userDataReady: boolean
   expanded: boolean
 }
-
 const expandAnimation = keyframes`
   from {
     max-height: 0px;
@@ -108,6 +119,7 @@ const ActionPanel: React.FunctionComponent<ActionPanelProps> = ({
   liquidity,
   userDataReady,
   expanded,
+  
 }) => {
   const farm = details
 
@@ -125,8 +137,25 @@ const ActionPanel: React.FunctionComponent<ActionPanelProps> = ({
     tokenAddress: token.address,
   })
   const lpAddress = getAddress(farm.lpAddresses)
+  const { account } = useWeb3React()
+  const lpContract = useERC20(lpAddress)
   const bsc = getBscScanLink(lpAddress, 'address')
   const info = `/info/pool/${lpAddress}`
+  const { onApprove } = useApproveFarm(lpContract)
+  const { fetchWithCatchTxError, loading: pendingTx } = useCatchTxError()
+  const dispatch = useAppDispatch()
+  
+  const { toastSuccess } = useToast()
+  
+  const handleApprove = useCallback(async () => {
+    const receipt = await fetchWithCatchTxError(() => {
+      return onApprove()
+    })
+    if (receipt?.status) {
+      toastSuccess(t('Contract Enabled'), <ToastDescriptionWithTx txHash={receipt.transactionHash} />)
+      dispatch(fetchFarmUserDataAsync({ account, pids: [pid] }))
+    }
+  }, [onApprove, dispatch, account, t, toastSuccess, fetchWithCatchTxError])
 
   return (
     <Container expanded={expanded}>
@@ -170,6 +199,9 @@ const ActionPanel: React.FunctionComponent<ActionPanelProps> = ({
         )}
         <StyledLinkExternal href={bsc}>{t('View Contract')}</StyledLinkExternal>
         <StyledLinkExternal href="https://herbswap.app/swap">{t('See Pair Info (coming soon)')}</StyledLinkExternal>
+        <Button width="100%" disabled={pendingTx} onClick={handleApprove} variant="secondary">
+          {t('increase allowance')}
+        </Button>
       </InfoContainer>
       <ActionContainer>
         <HarvestAction {...farm} userDataReady={userDataReady} />
