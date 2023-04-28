@@ -36,12 +36,12 @@ export const vaultPoolConfig = {
     },
   },
   [VaultKey.CakeFlexibleSideVault]: {
-    name: <Trans>Flexible HERB</Trans>,
-    description: <Trans>Flexible staking on the side.</Trans>,
+    name: <Trans>(Discontinued)</Trans>,
+    description: <Trans>.</Trans>,
     autoCompoundFrequency: 5000,
     gasLimit: 1000000,
     tokenImage: {
-      primarySrc: `https://iili.io/gFyZjs.png`,
+      primarySrc: `https://iili.io/H86e8pS.jpg`,
       secondarySrc: '/images/tokens/autorenew.svg',
     },
   },
