@@ -4,7 +4,7 @@ export default {
     841: '',
   },
   sousChef: {
-    42: '0xf5E4636000aBb8002d63ac228F82a67e18a4A4e7',
+    42: '0xD9995c20d6EaB1f64e45c7ad280E51144797673b',
     841: '',
   },
   zap: {
