@@ -8,19 +8,19 @@ export default {
     841: '',
   },
   zap: {
-    841: '0x70954FC2DE2e5eD7519E9Da5dFCAE570688004f4',
+    841: '',
     97: '0xD85835207054F25620109bdc745EC1D1f84F04e1',
   },
   multiCall: {
-    841: '0xe08E96Bb88CCf1F63C102757e598c000592B4927',
+    841: '',
     97: '0x8F3273Fb89B075b1645095ABaC6ed17B2d4Bc576',
   },
   cakeVault: {
-    841: '0xBBdDeBA5a6B670E61B0a067421b4439A6b2e5e8A',
+    841: '',
     97: '',
   },
   cakeFlexibleSideVault: {
-    841: '0x2072DB5596A28653990B11677871de8B90D16f05',
+    841: '',
     97: '',
   },
 
